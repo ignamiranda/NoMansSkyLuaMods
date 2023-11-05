@@ -1,10 +1,9 @@
 NMS_MOD_DEFINITION_CONTAINER = 
 {
-  ["MOD_FILENAME"] 			= "BiggerFarLightning.pak",
-  ["MOD_DESCRIPTION"]		= "",
-  ["MOD_AUTHOR"]				= "CodenameAwesome",
-  ["NMS_VERSION"]				= "Makes distant lightning bigger and less frequent",
-  ["MODIFICATIONS"] 		=
+  ["MOD_FILENAME"] = "BiggerFarLightning.pak",
+  ["MOD_DESCRIPTION"] = "Makes distant lightning bigger and less frequent",
+  ["MOD_AUTHOR"] = "CodenameAwesome",
+  ["MODIFICATIONS"] =
 	{
 		{
 			["MBIN_CHANGE_TABLE"] = 
