@@ -2,11 +2,10 @@
 
 NMS_MOD_DEFINITION_CONTAINER = 
 {
-  ["MOD_FILENAME"] 			= "ReEnabledFrozenFoliageColors.pak",     --the name of the pak created (if not combined) - REQUIRED
-  ["MOD_DESCRIPTION"]		= "",         --optional, for reference
-  ["MOD_AUTHOR"]				= "",         --optional, for reference
-  ["NMS_VERSION"]				= "2.0",     --optional, for reference
-  ["MODIFICATIONS"] 		=             --REQUIRED SECTION
+  ["MOD_FILENAME"] = "ReEnabledFrozenFoliageColors.pak",
+  ["MOD_DESCRIPTION"]		= "Removes the restriction causing foliage on Frozen worlds to only be green.",
+  ["MOD_AUTHOR"] = "CodenameAwesome",
+  ["MODIFICATIONS"] =
 	{
 		{
 			["MBIN_CHANGE_TABLE"] = 
