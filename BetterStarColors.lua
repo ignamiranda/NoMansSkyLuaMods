@@ -1,9 +1,8 @@
 NMS_MOD_DEFINITION_CONTAINER = 
 {
-  ["MOD_FILENAME"] 			= "BetterStarColors.pak",
-  ["MOD_DESCRIPTION"]		= "",
-  ["MOD_AUTHOR"]				= "",
-  ["NMS_VERSION"]				= "4.45",
+  ["MOD_FILENAME"] = "BetterStarColors.pak",
+  ["MOD_DESCRIPTION"] = "Gives stars in the galaxy map brighter colors, most notably changes blue stars to cyan.",
+  ["MOD_AUTHOR"] = "",
   ["MODIFICATIONS"] 		=
 	{
 		{
