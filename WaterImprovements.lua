@@ -3,7 +3,6 @@ NMS_MOD_DEFINITION_CONTAINER =
 ["MOD_FILENAME"]    = "WaterImprovements.pak",
 ["MOD_DESCRIPTION"] = "",
 ["LUA_AUTHOR"]      = "CodenameAwesome",
-["NMS_VERSION"]     = "",
 ["MODIFICATIONS"]   = 
     {
         {
