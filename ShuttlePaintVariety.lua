@@ -1,10 +1,9 @@
 NMS_MOD_DEFINITION_CONTAINER = 
 {
-  ["MOD_FILENAME"] 			= "ShuttlePaintVariety.pak",
-  ["MOD_DESCRIPTION"]		= "Adds a chance for colorful, fully painted shuttles to spawn.",
-  ["MOD_AUTHOR"]				= "",
-  ["NMS_VERSION"]				= "",
-  ["MODIFICATIONS"] 		=
+  ["MOD_FILENAME"] = "ShuttlePaintVariety.pak",
+  ["MOD_DESCRIPTION"] = "Adds a chance for colorful, fully painted shuttle class ships to spawn.",
+  ["MOD_AUTHOR"] = "",
+  ["MODIFICATIONS"] =
 	{
 		{
 			["MBIN_CHANGE_TABLE"] = 
