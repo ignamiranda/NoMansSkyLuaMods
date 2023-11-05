@@ -1,9 +1,8 @@
 NMS_MOD_DEFINITION_CONTAINER = 
 {
-  ["MOD_FILENAME"] 			= "FewerLushFireflies.pak",
-  ["MOD_DESCRIPTION"]		= "",
-  ["MOD_AUTHOR"]				= "",
-  ["NMS_VERSION"]				= "4.45",
+  ["MOD_FILENAME"] = "FewerLushFireflies.pak",
+  ["MOD_DESCRIPTION"] = "Reduces the density of glowing particles on Lush worlds by increasing their spawn radius rather than reducing the number of particles.",
+  ["MOD_AUTHOR"] = "",
   ["MODIFICATIONS"] 		=
 	{
 		{
