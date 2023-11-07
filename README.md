@@ -7,3 +7,5 @@ Better Star Colors
 Less Patchy Snow
 
 ![](_images/LessPatchySnow.jpg)
+
+![](_images/NoHazardScreenRefraction.gif)
