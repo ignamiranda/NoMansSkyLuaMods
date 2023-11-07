@@ -6,6 +6,8 @@
 
 ## Less Patchy Snow
 
+![](_images/LessPatchySnow.gif)
+
 ![](_images/LessPatchySnow.jpg)
 
 ## No Hazard Screen Refraction
