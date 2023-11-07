@@ -2,8 +2,8 @@
 
 Better Star Colors
 
-![](BetterStarColors.gif)
+![](_images/BetterStarColors.gif)
 
 Less Patchy Snow
 
-![](LessPatchySnow.jpg)
+![](_images/LessPatchySnow.jpg)
