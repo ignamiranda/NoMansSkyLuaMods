@@ -65,6 +65,7 @@ function grass_exml_changes(grass_model_path)
 			["REPLACE_TYPE"] = "RAW",
 			["SECTION_UP"] = 1,
 			["VALUE_CHANGE_TABLE"] = {
+				{[[]],[[]]},
 				{[[<Property name="ExtraTileTypes" />]],[[<Property name="ExtraTileTypes">
          <Property value="GcTerrainTileType.xml">
             <Property name="TileType" value="Mountain" />
