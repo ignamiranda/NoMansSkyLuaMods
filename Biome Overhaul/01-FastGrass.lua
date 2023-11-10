@@ -49,6 +49,7 @@ function grass_exml_changes(grass_model_path)
 		{--Stretch Optimizations
 			["REPLACE_TYPE"] = "ALL",
 			["SPECIAL_KEY_WORDS"] = {"Filename",grass_model_path},
+			["INTEGER_TO_FLOAT"] = "FORCE",
 			["MATH_OPERATION"] = "*",
 			["SECTION_UP"] = 1,
 			["VALUE_CHANGE_TABLE"] = {
@@ -65,7 +66,6 @@ function grass_exml_changes(grass_model_path)
 			["REPLACE_TYPE"] = "RAW",
 			["SECTION_UP"] = 1,
 			["VALUE_CHANGE_TABLE"] = {
-				{[[]],[[]]},
 				{[[<Property name="ExtraTileTypes" />]],[[<Property name="ExtraTileTypes">
          <Property value="GcTerrainTileType.xml">
             <Property name="TileType" value="Mountain" />
@@ -73,10 +73,6 @@ function grass_exml_changes(grass_model_path)
         </Property>]]}
 			}
 		},
-		{
-			["SPECIAL_KEY_WORDS"] = {"Filename",grass_model_path},
-			["SECTION_UP"] = 1,
-		}
 	}
 	return exml_changes
 end
