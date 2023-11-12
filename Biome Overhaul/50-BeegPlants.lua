@@ -1,7 +1,7 @@
 dofile([[OBE_methods.lua]])
 
 SETTINGS = {
-	["PREFIX"] = "PL",
+	["PREFIX"] = "BPL",
 	["SECTIONS"] = {
 		"MAIN_LMK"
 	},
@@ -11,6 +11,14 @@ SETTINGS = {
 			["NEW_MODEL"] = "MODELS/PLANETS/BIOMES/COMMON/PLANTS/MEDIUMPLANT.SCENE.MBIN",
 			["MULTIPLIERS"] = {
 				["MaxScale"] = 2,
+			}
+		},
+		{
+			["OLD_MODEL"] = "MODELS/PLANETS/BIOMES/SCORCHED/LARGE/LARGESPIRE.SCENE.MBIN",
+			["NEW_MODEL"] = "MODELS/PLANETS/BIOMES/SCORCHED/MEDIUM/VOLCANICPLANT.SCENE.MBIN",
+			["MULTIPLIERS"] = {
+				["MaxScale"] = 2,
+				["LodDistances"] = 1.5,
 			}
 		},
 	}
