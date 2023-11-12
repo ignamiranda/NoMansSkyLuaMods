@@ -20,3 +20,7 @@ To do list:
 ## No Hazard Screen Refraction
 
 ![](_images/NoHazardScreenRefraction.gif)
+
+## Smoke Not Steam
+
+![](_images/SmokeNotSteam.jpg)
