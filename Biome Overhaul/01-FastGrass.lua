@@ -33,7 +33,7 @@ grassmodels = {
 }
 
 function grass_exml_changes(grass_model_path)
-	stretch_amount = 1.25
+	stretch_amount = 1.5
 	exml_changes = {
 		{--Slope grass
 			["SPECIAL_KEY_WORDS"] = {"Filename",grass_model_path},
