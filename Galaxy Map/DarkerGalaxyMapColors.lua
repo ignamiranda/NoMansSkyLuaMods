@@ -1,4 +1,4 @@
-1 = 0.5
+RGB_MULTIPLIER = 0.75
 
 NMS_MOD_DEFINITION_CONTAINER = 
 {
@@ -16,38 +16,50 @@ NMS_MOD_DEFINITION_CONTAINER =
 					{
 						{
 							["PRECEDING_KEY_WORDS"] = {"MapLargeAreaPrimaryDefaultColours"},
+							["MATH_OPERATION"] = "*",
 							["REPLACE_TYPE"] = "ALL",
 							["INTEGER_TO_FLOAT"] = "FORCE",
 							["VALUE_CHANGE_TABLE"] 	= 
 							{
-								{"B", 1},
+								{"R", RGB_MULTIPLIER},
+								{"G", RGB_MULTIPLIER},
+								{"B", RGB_MULTIPLIER},
 							}	
 						},
 						{
 							["PRECEDING_KEY_WORDS"] = {"MapLargeAreaPrimaryHighContrastColours"},
+							["MATH_OPERATION"] = "*",
 							["REPLACE_TYPE"] = "ALL",
 							["INTEGER_TO_FLOAT"] = "FORCE",
 							["VALUE_CHANGE_TABLE"] 	= 
 							{
-								{"B", 1},
+								{"R", RGB_MULTIPLIER},
+								{"G", RGB_MULTIPLIER},
+								{"B", RGB_MULTIPLIER},
 							}	
 						},
 						{
 							["PRECEDING_KEY_WORDS"] = {"MapLargeAreaSecondaryDefaultColours"},
+							["MATH_OPERATION"] = "*",
 							["REPLACE_TYPE"] = "ALL",
 							["INTEGER_TO_FLOAT"] = "FORCE",
 							["VALUE_CHANGE_TABLE"] 	= 
 							{
-								{"B", 1},
+								{"R", RGB_MULTIPLIER},
+								{"G", RGB_MULTIPLIER},
+								{"B", RGB_MULTIPLIER},
 							}	
 						},
 						{
 							["PRECEDING_KEY_WORDS"] = {"MapLargeAreaSecondaryHighContrastColours"},
 							["MATH_OPERATION"] = "*",
+							["REPLACE_TYPE"] = "ALL",
 							["INTEGER_TO_FLOAT"] = "FORCE",
 							["VALUE_CHANGE_TABLE"] 	= 
 							{
-								{"B", 1},
+								{"R", RGB_MULTIPLIER},
+								{"G", RGB_MULTIPLIER},
+								{"B", RGB_MULTIPLIER},
 							}	
 						},
 					}
