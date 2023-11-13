@@ -17,6 +17,10 @@ To do list:
 
 ![](_images/LessPatchySnow.jpg)
 
+## More Shuttle Paint Variety
+
+![](_images/MoreShuttlePaintVariety.jpg)
+
 ## No Hazard Screen Refraction
 
 ![](_images/NoHazardScreenRefraction.gif)
