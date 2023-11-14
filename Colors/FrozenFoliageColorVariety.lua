@@ -1,6 +1,7 @@
 NMS_MOD_DEFINITION_CONTAINER = 
 {
   ["MOD_FILENAME"] = "ReEnabledFrozenFoliageColors.pak",
+  ["MOD_BATCHNAME"]		= "SpacefarerColors",
   ["MOD_DESCRIPTION"] = "Removes the restriction causing foliage on Frozen worlds to only be green.",
   ["MOD_AUTHOR"] = "CodenameAwesome",
   ["MODIFICATIONS"] =

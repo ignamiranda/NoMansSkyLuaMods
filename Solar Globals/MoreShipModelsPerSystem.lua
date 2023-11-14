@@ -1,6 +1,7 @@
 NMS_MOD_DEFINITION_CONTAINER = 
 {
   ["MOD_FILENAME"] 			= "MoreShipModelsPerSystem.pak",
+  ["MOD_BATCHNAME"] 			= "SpacefarerSolarGlobals",
   ["MOD_DESCRIPTION"]		= "",
   ["MOD_AUTHOR"]				= "CodenameAwesome",
   ["MODIFICATIONS"] 		=

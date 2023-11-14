@@ -1,7 +1,9 @@
+dofile([[OBE_methods.lua]])
+
 NMS_MOD_DEFINITION_CONTAINER = 
 {
   ["MOD_FILENAME"] 			= "IgnaciosSkyColors.pak",
-  ["MOD_BATCHNAME"] 			= "IgnaciosSkyColors.pak",
+  ["MOD_BATCHNAME"]		= "SpacefarerColors",
   ["MOD_DESCRIPTION"]		= "",
   ["MOD_AUTHOR"]				= "CodenameAwesome",
   ["NMS_VERSION"]				= "4.04",
@@ -17,13 +19,7 @@ NMS_MOD_DEFINITION_CONTAINER =
 					["EXML_CHANGE_TABLE"] = {
 						{
 							["PRECEDING_KEY_WORDS"] = {"GenericSettings","Settings"},
-							["SEC_SAVE_TO"] = "day_colors",
-							["SEC_KEEP"] = "TRUE"
-						},
-						{
-							["SEC_EDIT"] = "day_colors",
-							["REMOVE"] = "HBOS",
-							["SEC_KEEP"] = "TRUE"
+							["ADD"] = hue_cycler("day_colors")
 						}
 					}
 				},
@@ -34,13 +30,7 @@ NMS_MOD_DEFINITION_CONTAINER =
 					["EXML_CHANGE_TABLE"] = {
 						{
 							["PRECEDING_KEY_WORDS"] = {"GenericSettings","Settings"},
-							["SEC_SAVE_TO"] = "dusk_colors",
-							["SEC_KEEP"] = "TRUE"
-						},
-						{
-							["SEC_EDIT"] = "dusk_colors",
-							["REMOVE"] = "HBOS",
-							["SEC_KEEP"] = "TRUE"
+							["ADD"] = hue_cycler("dusk_colors")
 						}
 					}
 				}
@@ -48,6 +38,3 @@ NMS_MOD_DEFINITION_CONTAINER =
 		},
 	}
 }
---NOTE: ANYTHING NOT in table NMS_MOD_DEFINITION_CONTAINER IS IGNORED AFTER THE SCRIPT IS LOADED
---IT IS BETTER TO ADD THINGS AT THE TOP IF YOU NEED TO
---DON'T ADD ANYTHING PASS THIS POINT HERE

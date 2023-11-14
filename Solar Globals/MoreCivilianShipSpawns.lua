@@ -1,6 +1,7 @@
 NMS_MOD_DEFINITION_CONTAINER = 
 {
   ["MOD_FILENAME"] 			= "MoreCivilianShipSpawns.pak",
+  ["MOD_BATCHNAME"] 			= "SpacefarerSolarGlobals",
   ["MOD_DESCRIPTION"]		= "",
   ["MOD_AUTHOR"]				= "CodenameAwesome",
   ["MODIFICATIONS"] 		=
