@@ -1,7 +1,7 @@
 NMS_MOD_DEFINITION_CONTAINER = 
 {
-  ["MOD_FILENAME"] 			= "IgnaciosWaterColors.pak",
-  ["MOD_BATCHNAME"] 			= "IgnaciosWaterColors.pak",
+  ["MOD_FILENAME"] 			= "IgnaciosSkyColors.pak",
+  ["MOD_BATCHNAME"]		= "SpacefarerColors",
   ["MOD_DESCRIPTION"]		= "",
   ["MOD_AUTHOR"]				= "CodenameAwesome",
   ["NMS_VERSION"]				= "4.04",
@@ -12,21 +12,21 @@ NMS_MOD_DEFINITION_CONTAINER =
 			{
 				{
 					["MBIN_FILE_SOURCE"] 	= {
-						"METADATA/SIMULATION/SOLARSYSTEM/COLOURS/WATERCOLOURS.MBIN",
+						"METADATA/SIMULATION/SOLARSYSTEM/WEATHER/SKYSETTINGS/SPACESKYCOLOURS.MBIN",
 					},
 					["EXML_CHANGE_TABLE"] = {
 						{
 							["PRECEDING_KEY_WORDS"] = {"Settings"},
-							["SEC_SAVE_TO"] = "water_colors",
+							["SEC_SAVE_TO"] = "space_colors",
 							["SEC_KEEP"] = "TRUE"
 						},
 						{
-							["SEC_EDIT"] = "water_colors",
+							["SEC_EDIT"] = "space_colors",
 							["REMOVE"] = "HBOS",
 							["SEC_KEEP"] = "TRUE"
 						}
 					}
-				},
+				}
 			}
 		},
 	}

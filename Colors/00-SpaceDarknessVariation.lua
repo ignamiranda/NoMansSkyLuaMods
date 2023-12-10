@@ -187,8 +187,8 @@ end
 NMS_MOD_DEFINITION_CONTAINER =
 {
     ["MOD_FILENAME"] = "IgnaciosSkyColors.pak",
-    ["MOD_BATCHNAME"] = "IgnaciosSpaceColors.pak",
-    ["MOD_DESCRIPTION"] = "Creates hundreds of space variants in a spectrum from black space to black space with nebulae to full brightness (vanilla).",
+    ["MOD_BATCHNAME"]		= "SpacefarerColors",
+  ["MOD_DESCRIPTION"] = "Creates hundreds of space variants in a spectrum from black space to black space with nebulae to full brightness (vanilla).",
     ["MOD_AUTHOR"] = "CodenameAwesome",
     ["NMS_VERSION"] = "4.04",
     ["GLOBAL_INTEGER_TO_FLOAT"] = "FORCE",
