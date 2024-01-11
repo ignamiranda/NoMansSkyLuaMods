@@ -106,7 +106,7 @@ end
 NMS_MOD_DEFINITION_CONTAINER = 
 {
   ["MOD_FILENAME"] = "Must be combined.pak",
-  ["MOD_BATCHNAME"] = "SpacefarerBiomes.pak",
+  ["MOD_BATCHNAME"] = "Spacefarer-Biomes.pak",
   ["MOD_AUTHOR"] = "CodenameAwesome",
   ["MOD_DESCRIPTION"] = "Combines the objects lists of HQ biomes and their non-HQ biome counterparts.",
   ["MODIFICATIONS"] =
